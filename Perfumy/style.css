@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+
+ul,h1,li{
+    display: inline;
+}
+
+ul{
+    margin-left: 70%;
+}
+
+li{
+    color: grey;
+    cursor: pointer;
+    
+}
+
+li:hover{
+    color: white;
+}
+
+.search{
+    width: 60%;
+    padding: 10px;
+    margin-top: 25px;
+    
+}
+
+.searchbar{
+    text-align: center;
+}
+
+.box{
+    
+    width: 220px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    
+}
+
+.products{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.aboutus{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.contactus{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin-top: 10px;
+    height: 150px;
+    text-align: center;
+}
+
+.copy{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.pad{
+    margin-top: 20px;
+}
+
+.addr{
+    margin-top: 20px;
+}
+
+.products:hover{
+    cursor: pointer;;
+}

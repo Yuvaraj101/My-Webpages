@@ -1,0 +1,15 @@
+comments
+<!-- content -->
+
+nav (similar to div just a container)
+
+by default all elements have marigin and padding so it is important to set the padding and margin to zero 
+
+navigation bar prefered way is use ul and li
+
+li:hover{
+    color: white;
+}
+
+-- when the mouse is over the text the color will be changed
+cursor: pointer; // finger symbol when hover
