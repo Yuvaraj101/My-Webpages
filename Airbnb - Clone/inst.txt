@@ -1,0 +1,23 @@
+//google fonts -- to fetch fonts
+
+Google font for new fonts -- for airbnb poppins-select regular 400 font
+click + icon and and copy the link
+
+//font awesome -- to fetch icons
+
+search font awesome cdn link 
+cdn-content dleivery network
+
+//use of unicodes for copyrights
+
+https://neocities.org/
+//to host the websites
+
+https://dribbble.com/shots
+//for project idea designs
+
+search icons and copy the icons html link in the body of html file
+
+--------------------------------
+
+transform is used along with transition to animate
