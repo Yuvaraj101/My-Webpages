@@ -1,0 +1,233 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.gallery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    
+}
+
+img{
+    border-radius: 10px;
+    transition: 1s;
+    
+}
+
+img:hover{
+    transform: scale(0.9);
+    cursor: pointer;
+}
+
+.box{
+    padding: 20px;
+    text-align: center;
+    
+    z-index: 1;
+    transition: 2s;
+    
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 10%;
+    background-color: black;
+    color: yellow;
+    padding: 10px;
+    align-items: center;
+
+}
+
+h1{
+    padding: 10px;
+    cursor: pointer;
+}
+
+h1:hover{
+    color: white;
+}
+
+/* button{
+    background-color: yellow;
+    color: black;
+
+} */
+
+.header > li{
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 15px;
+    padding: 15px;
+    transition: 1s;
+    border: none;
+    
+}
+
+.navbar > button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: none;
+    background-color: yellow;
+    color: black;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: 1s;
+
+}
+
+.navbar > button:hover{
+    opacity: 0.5;
+    transform: scale(0.9);
+}
+
+.header > li:hover{
+    cursor: pointer;
+    color: white;
+    border-bottom: 1px solid red;
+}
+
+h4{
+    color: black;
+}
+
+i{
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .navbar > button{
+        display: none;
+    }
+
+    .navbar > nav{
+        display: none;
+    }
+
+    h1{
+        font-size: 25px;
+    }
+  }
+
+@media only screen and (min-width: 768px) {
+
+#menu{
+    display: none;
+
+}
+
+}
+
+#like{
+    color: grey;
+    font-size: 30px;
+    position: relative;
+    bottom: 22%;
+    left: 70%;
+}
+
+#like:hover{
+    color: red;
+    cursor: pointer;
+}
+
+#menu:hover{
+    cursor: pointer;
+}
+
+.sidebar{
+    width: 50vw;
+    height: 40vh;
+    background: black;
+    /* background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); */
+    color: yellow;
+    position: absolute;
+    margin-left: -100%;
+    transition: 1s;
+    transition-timing-function: ease-in-out;
+    z-index: 2;
+}
+
+#cancel{
+    font-size: 20px;
+    color: red;
+    margin-left: 80%;
+    padding: 10px;
+}
+
+
+#cancel:hover{
+    cursor: pointer;
+}
+
+.sider > li{
+    font-size: 20px;
+    padding: 15px;
+}
+
+button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    /* transition: 1s; */
+    margin-right: 30px;
+
+}
+
+button:hover{
+    background-color: darkgoldenrod;
+    color: white;
+}
+
+.wishlist{
+    border: 1px solid rgb(242, 255, 7);
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    margin: 20px;
+    z-index: 1;
+    border-radius: 1rem;
+    /* background-color: white;
+    color: black; */
+    background: rgb(34,193,195);
+    background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    transition: 1s;
+    padding: 20px;    
+}
+
+.wishlist:hover{
+    transform: scale(0.9);
+    opacity: 0.7;
+}
+
+#wishlist{
+    font-size: 50px;
+    margin-top: 40px;
+}
