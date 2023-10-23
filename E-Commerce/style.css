@@ -12,14 +12,17 @@ body{
     background-color: black;
     color: yellow;
     justify-content: flex-end;
+    padding: 10px;
 }
 
 h2{
-    margin-right: 60%;
+    margin-right: 50%;
 }
 
 li{
     display: inline-block;
+    margin-right: 25px;
+    padding: 10px;
 }
 
 a{
