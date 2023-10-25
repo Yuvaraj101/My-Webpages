@@ -44,6 +44,7 @@ a:hover{
 .slider{
     display: flex;
     overflow: hidden;
+    position: relative;
 
 }
 
@@ -55,4 +56,27 @@ a:hover{
 
 .slider-image{
     width: 100vw;
+}
+
+.slider-left-button{
+    position: absolute;
+    top: 35%;
+    left: 5%;
+}
+
+.slider-right-button{
+    color: white;
+    position: absolute;
+    top: 35%;
+    right: 5%;
+}
+
+.slider-left-button > i{
+    font-size: 10vw;
+    color: white;
+}
+
+.slider-right-button > i{
+    font-size: 10vw;
+    color: white;
 }
