@@ -7,6 +7,8 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+/* navbar  */
+
 .navbar{
     display: flex;
     background-color: rgb(255, 255, 255);
@@ -36,6 +38,25 @@ a:hover{
     text-decoration: underline;
 }
 
+/* navbar menubtn toggle */
+.nav-toggle{
+    display: none;
+}
+
+/* media query breakpoint at 900px */
+@media only screen and (max-width: 968px) {
+
+    .navbar-links{
+        display: none;
+    }
+
+    .nav-toggle{
+        display: block;
+    }
+
+  }
+
+/* slider */
 .container{
     padding-left: 15px;
     padding-right: 15px;
@@ -50,6 +71,7 @@ a:hover{
 
 .slider-image-container{
     display: flex;
+    transition: 2s;
     /* margin-left: ; */
     /* margin left is to be manipulated using js to make the image move left and right */
 }
