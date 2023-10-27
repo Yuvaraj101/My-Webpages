@@ -46,12 +46,14 @@ a:hover{
 /* media query breakpoint at 900px */
 @media only screen and (max-width: 968px) {
 
-    .navbar-links{
+    .navbar-link{
         display: none;
     }
 
     .nav-toggle{
-        display: block;
+        display: inline-block;
+        margin-left: 90%;
+        
     }
 
   }
