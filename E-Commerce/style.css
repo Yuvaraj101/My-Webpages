@@ -43,6 +43,44 @@ a:hover{
     display: none;
 }
 
+#nav-menu-toggle{
+    font-size: 140%;
+}
+
+#nav-menu-toggle:hover{
+    cursor: pointer;
+
+}
+
+/* sidebar toggle  */
+
+.sidebar{
+    width: 30%;
+    height: 80%;
+    background-color: black;
+    position: absolute;
+    z-index: 1;
+    margin-left: -100vw;
+    transition: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+.sidebar-content{
+    margin-top: 20%;
+}
+
+.sidebar-content > a{
+    text-decoration: none;
+    color: yellow;
+    padding: 10%;
+    
+}
+
+.sidebar-content > a:hover{
+    text-decoration: underline;
+    
+}
+
 /* media query breakpoint at 900px */
 @media only screen and (max-width: 968px) {
 
@@ -52,7 +90,7 @@ a:hover{
 
     .nav-toggle{
         display: inline-block;
-        margin-left: 90%;
+        margin-left: 95%;
         
     }
 

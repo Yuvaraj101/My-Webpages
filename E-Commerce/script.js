@@ -27,3 +27,23 @@ sliderLeftBtn.addEventListener("click",function()
     }
     slider.style.marginLeft = "-" + margin + "vw"
 })
+
+// toggle button to open sidebar
+var menuBtn = document.getElementById("nav-menu-toggle")
+var sidebar = document.querySelector(".sidebar")
+var count = 0
+menuBtn.addEventListener("click",function()
+{
+    count = count + 1
+    if (count == 1)
+    {
+
+        sidebar.style.marginLeft = "0" + "vw"
+        count = 0
+    }
+    
+    if (count == 0)
+    {
+        sidebar.style.marginLeft = "-" + "100" + "vw"
+    }
+})
