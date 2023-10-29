@@ -81,6 +81,18 @@ a:hover{
     
 }
 
+/* sidebar cancel button  */
+#sidebar-cancel{
+    color: red;
+    font-size: 1.5rem;
+    margin-left: 70%;
+    padding: 10%;
+}
+
+#sidebar-cancel:hover{
+    cursor: pointer;
+}
+
 /* media query breakpoint at 900px */
 @media only screen and (max-width: 968px) {
 
