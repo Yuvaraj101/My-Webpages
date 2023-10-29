@@ -39,11 +39,12 @@ menuBtn.addEventListener("click",function()
     {
 
         sidebar.style.marginLeft = "0" + "vw"
-        count = 0
+        
     }
     
-    if (count == 0)
+    else if (count == 2)
     {
         sidebar.style.marginLeft = "-" + "100" + "vw"
+        count = 0
     }
 })
