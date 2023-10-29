@@ -138,6 +138,10 @@ a:hover{
     left: 5%;
 }
 
+.slider-left-button,.slider-right-button:hover{
+    cursor: pointer;
+}
+
 .slider-right-button{
     color: white;
     position: absolute;
