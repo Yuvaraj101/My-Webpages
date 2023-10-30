@@ -48,3 +48,11 @@ menuBtn.addEventListener("click",function()
         count = 0
     }
 })
+
+//sidebar
+var cancelBtn = document.getElementById("sidebar-cancel")
+cancelBtn.addEventListener("click",function()
+{
+    sidebar.style.marginLeft = "-" + "100vw"
+})
+

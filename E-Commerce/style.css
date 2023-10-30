@@ -158,3 +158,35 @@ a:hover{
     font-size: 10vw;
     color: white;
 }
+
+/* brands-section  */
+.brand-slider{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 1%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.brands-section{
+    
+    margin-top: 1%;
+    padding: 1%;
+}
+
+.brand-details{
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-left: 5%;
+}
+
+.brand-details > img{
+    width: 50%;
+    height: 40%;
+}
+
+.brand-slider::-webkit-scrollbar{
+    visibility: hidden;
+}
