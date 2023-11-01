@@ -169,7 +169,7 @@ a:hover{
     overflow-y: hidden;
 }
 
-.brands-section,.most-wanted-section{
+.brands-section,#most-wanted-section{
     
     margin-top: 1%;
     padding: 1%;
@@ -192,17 +192,19 @@ a:hover{
 }
 
 /* most wanted section  */
+
 .most-wanted-slider{
     display: flex;
     /* justify-content: space-evenly; */
     flex-direction: row;
     overflow-y: hidden;
     overflow-x: scroll;
+    
 }
 
-.most-wanted-slider::-webkit-scrollbar{
+/* .most-wanted-slider::-webkit-scrollbar{
     visibility: hidden;
-}
+} */
 
 .sale-box{
     display:inline-block;
@@ -215,4 +217,30 @@ a:hover{
     font-size:20px;
     text-align:center;
     border-radius:5px;
+    position: absolute;
+    bottom: 80%;
+    right: 50%;
   }
+
+.outfit-details{
+    border: 1px solid red;
+    position: relative;
+    text-align: center;
+    margin-left: 20px;
+    padding: 20px;
+
+}
+
+.outfit-details > img{
+    height: 35vh;
+    width: 20vw;
+}
+
+#blackHeart{
+    position: absolute;
+    bottom: 10%;
+    left: 20%;
+    width: 20%;
+    height: 20%;
+}
+
