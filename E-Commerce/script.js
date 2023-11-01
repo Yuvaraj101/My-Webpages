@@ -28,6 +28,19 @@ sliderLeftBtn.addEventListener("click",function()
     slider.style.marginLeft = "-" + margin + "vw"
 })
 
+//slider timed function
+
+setInterval(() => {
+    
+    margin = margin + 100
+    if (margin > 200)
+    {
+        margin = 0
+    }
+    slider.style.marginLeft = "-" + margin +"vw"
+    
+}, 6000);
+
 // toggle button to open sidebar
 var menuBtn = document.getElementById("nav-menu-toggle")
 var sidebar = document.querySelector(".sidebar")
@@ -55,4 +68,5 @@ cancelBtn.addEventListener("click",function()
 {
     sidebar.style.marginLeft = "-" + "100vw"
 })
+
 

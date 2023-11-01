@@ -169,7 +169,7 @@ a:hover{
     overflow-y: hidden;
 }
 
-.brands-section{
+.brands-section,.most-wanted-section{
     
     margin-top: 1%;
     padding: 1%;
@@ -190,3 +190,29 @@ a:hover{
 .brand-slider::-webkit-scrollbar{
     visibility: hidden;
 }
+
+/* most wanted section  */
+.most-wanted-slider{
+    display: flex;
+    /* justify-content: space-evenly; */
+    flex-direction: row;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+
+.most-wanted-slider::-webkit-scrollbar{
+    visibility: hidden;
+}
+
+.sale-box{
+    display:inline-block;
+    background-color:red;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:20px;
+    padding-right:20px;
+    color:white;
+    font-size:20px;
+    text-align:center;
+    border-radius:5px;
+  }
