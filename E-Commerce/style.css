@@ -254,3 +254,12 @@ a:hover{
     height: 10%;
 }
 
+#redHeart{
+    display: block;
+    position: absolute;
+    bottom: 9.5%;
+    left: 84.5%;
+    width: 11%;
+    height: 11%;
+
+}
