@@ -7,6 +7,10 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 /* navbar  */
 
 .navbar{
@@ -261,5 +265,4 @@ a:hover{
     left: 84.5%;
     width: 11%;
     height: 11%;
-
 }
