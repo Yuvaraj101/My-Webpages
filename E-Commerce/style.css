@@ -160,17 +160,16 @@ a:hover{
 }
 
 /* brands-section  */
+/* ----------------------------  */
 .brand-slider{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
     margin-top: 1%;
     overflow-x: scroll;
     overflow-y: hidden;
 }
 
 .brands-section,#most-wanted-section{
-    
     margin-top: 1%;
     padding: 1%;
 }
@@ -183,8 +182,8 @@ a:hover{
 }
 
 .brand-details > img{
-    width: 50%;
-    height: 40%;
+    width: 5vw;
+    height: 10vh;
 }
 
 .brand-slider::-webkit-scrollbar{
@@ -192,13 +191,13 @@ a:hover{
 }
 
 /* most wanted section  */
-
+/* ---------------------------------  */
 .most-wanted-slider{
     display: flex;
-    /* justify-content: space-evenly; */
     flex-direction: row;
     overflow-y: hidden;
     overflow-x: scroll;
+    margin-top: 1%;
     
 }
 
@@ -237,8 +236,8 @@ a:hover{
 #blackHeart{
     position: absolute;
     bottom: 10%;
-    left: 20%;
-    width: 20%;
-    height: 20%;
+    left: 85%;
+    width: 10%;
+    height: 10%;
 }
 
