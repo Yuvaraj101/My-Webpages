@@ -15,6 +15,7 @@ sliderRightBtn.addEventListener("click",function()
         margin = 0 
     }
     slider.style.marginLeft = "-" + margin + "vw"
+    clearInterval(myInterval)
 
 
 })
@@ -30,7 +31,7 @@ sliderLeftBtn.addEventListener("click",function()
 
 //slider timed function
 
-setInterval(() => {
+const myInterval = setInterval(() => {
     
     margin = margin + 100
     if (margin > 200)
