@@ -27,6 +27,7 @@ sliderLeftBtn.addEventListener("click",function()
         margin = 200
     }
     slider.style.marginLeft = "-" + margin + "vw"
+    clearInterval(myInterval)
 })
 
 //slider timed function
