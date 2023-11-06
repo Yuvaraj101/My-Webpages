@@ -71,4 +71,8 @@ cancelBtn.addEventListener("click",function()
     sidebar.style.marginLeft = "-" + "100vw"
 })
 
+//like and unlike toggle
+var redHeart = document.getElementById("redHeart")
+var blackHeart = document.getElementById("blackHeart")
+
 
