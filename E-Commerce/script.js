@@ -41,7 +41,7 @@ const myInterval = setInterval(() => {
     }
     slider.style.marginLeft = "-" + margin +"vw"
     
-}, 6000);
+}, 5000);
 
 // toggle button to open sidebar
 var menuBtn = document.getElementById("nav-menu-toggle")
