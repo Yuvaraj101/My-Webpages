@@ -207,7 +207,7 @@ a:hover{
 
 .slider-content{
     position: absolute;
-    top: 20%;
+    top: 18%;
     width: 100%;
     text-align: center;
     color: white;
@@ -235,10 +235,27 @@ a:hover{
 /* ----------------------------  */
 .brand-slider{
     display: flex;
-    flex-direction: row;
-    margin-top: 1%;
+    margin-top: 2vw;
+    justify-content: space-between;
     overflow-x: scroll;
-    overflow-y: hidden;
+}
+
+.brand-details > img{
+    width: 5vw;
+    align-items: center;
+}
+
+.brand-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2vw;
+    text-align: center;
+    margin-left: 5vw;
+}
+
+.brand-slider::-webkit-scrollbar{
+    visibility: hidden;
 }
 
 .brands-section,#most-wanted-section{
@@ -246,33 +263,6 @@ a:hover{
     padding: 1%;
 }
 
-.brand-details{
-    padding: 10px;
-    text-align: center;
-    font-size: 1.5rem;
-    margin-left: 5%;
-}
-
-/* adjusted first brand image  */
-.brand-detail{
-    padding: 10px;
-    text-align: center;
-    font-size: 1.5rem;
-}
-/* adjusted first brand image  */
-.brand-detail > img{
-    width: 5vw;
-    height: 10vh;
-}
-
-.brand-details > img{
-    width: 5vw;
-    height: 10vh;
-}
-
-.brand-slider::-webkit-scrollbar{
-    visibility: hidden;
-}
 
 /* most wanted section  */
 /* ---------------------------------  */
