@@ -11,6 +11,10 @@ html{
     scroll-behavior: smooth;
 }
 
+h3{
+    font-size: 2vw;
+    padding: 1%;
+}
 /* navbar  */
 
 .navbar{
@@ -263,15 +267,26 @@ a:hover{
     padding: 1%;
 }
 
+@media only screen and (max-width: 1000px) {
+
+    h3{
+        font-size: 3vw;
+        padding: 1%;
+    }
+
+}
+
+
 
 /* most wanted section  */
 /* ---------------------------------  */
 .most-wanted-slider{
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
     overflow-y: hidden;
     overflow-x: scroll;
-    margin-top: 1%;
+    margin-top: 2vw;
+    gap: 20px;
     
 }
 
@@ -280,19 +295,15 @@ a:hover{
 }
 
 .sale-box{
-    display:inline-block;
-    background-color:red;
-    padding-top:5px;
-    padding-bottom:5px;
-    padding-left:20px;
-    padding-right:20px;
-    color:white;
-    font-size:20px;
-    text-align:center;
-    border-radius:5px;
     position: absolute;
-    bottom: 90%;
-    right: 79%;
+    top:3px;
+    left: 3px;
+    font-size: 2vw;
+    background-color: red;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10%;
   }
 
 .outfit-details{
@@ -303,7 +314,6 @@ a:hover{
 
 .outfit-details > img{
     border-radius: 2%;
-    height: 50vh;
     width: 25vw;
 }
 
