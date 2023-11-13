@@ -72,10 +72,12 @@ cancelBtn.addEventListener("click",function()
 })
 
 //like and unlike toggle
-var redHeart = document.querySelectorAll("#redHeart")
-var blackHeart = document.querySelectorAll("#blackHeart")
+var redHeart = document.querySelectorAll("#blackHeart")
 
-redHeart.forEach(function(el)
+redHeart.forEach(function(btn)
 {
-    
+    btn.addEventListener("click",function(e)
+    {
+        console.log(e);
+    })
 })
