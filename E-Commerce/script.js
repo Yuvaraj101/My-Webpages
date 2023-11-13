@@ -78,6 +78,13 @@ redHeart.forEach(function(btn)
 {
     btn.addEventListener("click",function(e)
     {
-        console.log(e);
+        if (e.target.src.indexOf("blackheart") > 0)
+        {
+            e.target.src = "img/icons/redheart.png"
+        }
+        else{
+            e.target.src = "img/icons/blackheart.png"
+        }
+
     })
 })
