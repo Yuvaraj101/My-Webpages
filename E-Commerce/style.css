@@ -262,7 +262,7 @@ a:hover{
     visibility: hidden;
 }
 
-.brands-section,#most-wanted-section{
+.brands-section,#most-wanted-section,.new-arrivals-section{
     margin-top: 1%;
     padding: 1%;
 }
