@@ -291,46 +291,44 @@ a:hover{
     appearance: none;
 }
 
+.item-details{
+    position: relative;
+}
+
 .item-details > img{
     width: 25vw;
 }
 
+.button-overlay{
+    position: absolute;
+    top: 45%;
+    left: 35%;
+}
+
 #shopBtn{
     background: grey;
-    border: 1px solid #ffffff;
-    border-radius: 6px;
-    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
-    box-sizing: border-box;
     color: white;
-    cursor: pointer;
-    display: inline-block;
-    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
-    font-size: 14px;
-    font-weight: 800;
-    line-height: 16px;
-    min-height: 40px;
-    outline: 0;
-    padding: 12px 14px;
-    text-align: center;
-    text-rendering: geometricprecision;
-    text-transform: none;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-    vertical-align: middle;
-
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 1.2vw;
+    border: solid 1px white;
+    border-radius: 2%;
   }
   
   #shopBtn:hover,
   #shopBtn:active {
+    cursor: pointer;
     background-color: red;
-    background-position: 0 0;
     color: white;
   }
   
   #shopBtn:active {
     opacity: .5;
   }
+
+  
 
 /* most wanted section  */
 /* ---------------------------------  */
