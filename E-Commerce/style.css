@@ -308,13 +308,14 @@ a:hover{
 #shopBtn{
     background: grey;
     color: white;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
     font-size: 1.2vw;
     border: solid 1px white;
-    border-radius: 2%;
+    border-radius: 6px;
+    
   }
   
   #shopBtn:hover,
@@ -328,7 +329,37 @@ a:hover{
     opacity: .5;
   }
 
-  
+  @media only screen and (max-width: 630px)
+  {
+    #shopBtn{
+        background: grey;
+        color: white;
+        padding-top: 0.5vh;
+        padding-bottom: 0.5vh;
+        padding-left: 1vw;
+        padding-right: 1vw;
+        font-size: 1.2vw;
+        border: solid 1px white;
+        
+      }
+      
+      #shopBtn:hover,
+      #shopBtn:active {
+        cursor: pointer;
+        background-color: red;
+        color: white;
+        
+      }
+      
+      #shopBtn:active {
+        opacity: .5;
+      }
+
+  }
+
+ /* .item-details > img{
+    opacity: 0.6;
+ } */
 
 /* most wanted section  */
 /* ---------------------------------  */
