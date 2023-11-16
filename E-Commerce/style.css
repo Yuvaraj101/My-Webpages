@@ -411,3 +411,14 @@ a:hover{
 #blackHeart:hover{
     cursor: pointer;
 }
+
+/* limited offer box  */
+/* -------------------------- */
+
+.limited-offer{
+    width: 100vw;
+    height: 40vh;
+    background-color: rgb(29, 35, 44);
+    margin: 1vw;
+}
+    
