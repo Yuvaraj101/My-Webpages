@@ -416,9 +416,8 @@ a:hover{
 /* -------------------------- */
 
 .limited-offer{
-    width: 100vw;
+    width: 95vw;
     height: 40vh;
     background-color: rgb(29, 35, 44);
-    margin: 1vw;
 }
     
