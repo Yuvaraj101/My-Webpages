@@ -98,9 +98,11 @@ shopBtn.forEach(function(btn)
 {
     btn.addEventListener("click",function()
     {
-        console.log("gg");
-
-        
+        console.log();
+        outfitImg.forEach(function(img)
+        {
+            img.style.opacity = "0.6";
+        })
 
 
     })
