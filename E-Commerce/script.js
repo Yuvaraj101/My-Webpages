@@ -88,3 +88,21 @@ redHeart.forEach(function(btn)
 
     })
 })
+
+// overlay effect when hover on the button 
+var shopBtn = document.querySelectorAll("#shopBtn")
+
+var outfitImg = document.querySelectorAll("#outfit-img")
+
+shopBtn.forEach(function(btn)
+{
+    btn.addEventListener("click",function()
+    {
+        console.log("gg");
+
+        
+
+
+    })
+})
+
