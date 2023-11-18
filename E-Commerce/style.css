@@ -357,11 +357,10 @@ a:hover{
 
   }
 
- /* .item-details > img{
-    opacity: 0.6;
- } */
+.blur{
+    opacity:0.6;
+}
 
- /* yet to manipulate opacity using js  */
 
 /* most wanted section  */
 /* ---------------------------------  */

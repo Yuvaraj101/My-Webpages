@@ -96,15 +96,10 @@ var outfitImg = document.querySelectorAll("#outfit-img")
 
 shopBtn.forEach(function(btn)
 {
-    btn.addEventListener("click",function()
+    btn.addEventListener("click",function(e)
     {
-        console.log();
-        outfitImg.forEach(function(img)
-        {
-            img.style.opacity = "0.6";
-        })
-
-
+        console.log(e.target.previousSibling.parentNode.previousSibling.previousElementSibling);
     })
+
 })
 
