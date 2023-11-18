@@ -96,9 +96,16 @@ var outfitImg = document.querySelectorAll("#outfit-img")
 
 shopBtn.forEach(function(btn)
 {
-    btn.addEventListener("click",function(e)
+    btn.addEventListener("mouseover",function(e)
     {
-        console.log(e.target.previousSibling.parentNode.previousSibling.previousElementSibling);
+        outfit = e.target.previousSibling.parentNode.previousSibling.previousElementSibling;
+        outfit.style.opacity = "0.6";
+    })
+
+    btn.addEventListener("mouseout",function(e)
+    {
+        outfit = e.target.previousSibling.parentNode.previousSibling.previousElementSibling
+        outfit.style.opacity = "1.0"
     })
 
 })
