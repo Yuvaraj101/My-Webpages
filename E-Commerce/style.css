@@ -413,11 +413,21 @@ a:hover{
 
 .limited-offer{
     display: flex;
-    overflow: hidden;
-    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-color: #1D232C;
+    color: #E2E1E1;
+    padding: 20px;
+    font-size: 2vw;
+}
+
+.limited-offer > img{
     width: 100%;
-    height: 40%;
-    background-color: rgb(29, 35, 44);
+    height: 100%;
+}
+
+.offer-text{
+    padding: 5%;
 }
 
 .boxy{
@@ -426,3 +436,27 @@ a:hover{
     background-color: cyan;
     margin-top: 50px;
 }
+
+#sb{
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    font-size: 1.2vw;
+    border: solid 1px white;
+    border-radius: 6px;
+    
+  }
+  
+  #sb:hover,
+  #sb:active {
+    cursor: pointer;
+    background-color: red;
+    color: white;
+  }
+  
+  #sb:active {
+    opacity: .5;
+  }
