@@ -460,3 +460,31 @@ a:hover{
   #sb:active {
     opacity: .5;
   }
+
+  /* news letter section */
+  /* ----------------------- */
+
+  #subBtn
+  {
+    background: #1D232C;
+    color: white;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    font-size: 1.2vw;
+    border: solid 1px white;
+    border-radius: 6px;
+  }
+
+  #subBtn:hover,
+  #subBtn:active {
+    cursor: pointer;
+    background-color: greenyellow;
+    color: white;
+  }
+  
+  #subBtn:active {
+    opacity: .5;
+  }
+
